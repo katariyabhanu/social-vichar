@@ -22,4 +22,8 @@ function App() {
   </div>
 }
 
+<<<<<<< HEAD
 export default App
+=======
+export default App
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80

@@ -15,4 +15,8 @@ export default async function handler(request, response) {
   } catch (error) {
     return response.status(502).json({ error: 'Aaj Tak news feed is temporarily unavailable' })
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80

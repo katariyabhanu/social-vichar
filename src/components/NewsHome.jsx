@@ -66,9 +66,18 @@ export default function NewsHome({ activeTopic, query, onSelectTopic }) {
     </section>
     <footer className="site-footer"><div className="footer-brand"><BrandLogo variant="footer"/><p>खबर वही, नज़रिया नया।</p></div><span>© {new Date().getFullYear()} Social Vichar · सभी अधिकार सुरक्षित</span><div>{['भारत','दुनिया','बिजनेस','खेल'].map(item=><button key={item} onClick={() => onSelectTopic(item)}>{item}</button>)}</div></footer>
   </main>
+<<<<<<< HEAD
 }
 
 
 
 
 
+=======
+}
+
+
+
+
+
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80

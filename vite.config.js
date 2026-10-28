@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
+=======
+import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
+
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80
 const feedSources = {
   '/api/aajtak-news': 'https://www.aajtak.in/rssfeeds?id=home',
   '/api/jaipur-news': 'https://api.livehindustan.com/feeds/rss/rajasthan/jaipur/rssfeed.xml',
@@ -38,5 +44,10 @@ const newsFeedProxy = {
   configurePreviewServer(server) { server.middlewares.use(newsFeedMiddleware) },
 }
 
+<<<<<<< HEAD
 export default defineConfig({ plugins: [react(), newsFeedProxy] })
 
+=======
+export default defineConfig({ plugins: [react(), newsFeedProxy] })
+
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80

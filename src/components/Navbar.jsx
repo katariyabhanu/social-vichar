@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import BrandLogo from './BrandLogo'
+=======
+import BrandLogo from './BrandLogo'
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80
 import { useState } from 'react'
 
 const channels = ['Social Vichar', 'हिंदी', 'मराठी', 'India Today', 'राजस्थान', 'जयपुर', 'उत्तर प्रदेश', 'बिहार', 'बिजनेस', 'मनोरंजन', 'Sports', 'Tech']
@@ -37,6 +41,12 @@ export default function Navbar({ activeTopic, onSelectTopic, onOpenMenu, onOpenS
       {searchOpen && <form className="search-panel" onSubmit={event => { event.preventDefault(); choose(query || 'होम') }}><span className="search-panel-icon"/><input autoFocus value={query} onChange={event => setQuery(event.target.value)} placeholder="खबरें खोजें..."/><button type="submit">खोजें</button><button className="search-close" type="button" onClick={() => { setSearchOpen(false); setQuery('') }}>×</button></form>}
     </header>
   </>
+<<<<<<< HEAD
 }
 
 
+=======
+}
+
+
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80

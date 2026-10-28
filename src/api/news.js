@@ -26,4 +26,8 @@ async function fetchFeed(endpoint, signal, sourceName) {
 }
 
 export const fetchAajTakFeed = ({ signal } = {}) => fetchFeed('/api/aajtak-news', signal, 'Aaj Tak')
+<<<<<<< HEAD
 export const fetchJaipurFeed = ({ signal } = {}) => fetchFeed('/api/jaipur-news', signal, 'जयपुर')
+=======
+export const fetchJaipurFeed = ({ signal } = {}) => fetchFeed('/api/jaipur-news', signal, 'जयपुर')
+>>>>>>> 4b8d5e8cfdb105500108c4e7474e06a2cea24f80
